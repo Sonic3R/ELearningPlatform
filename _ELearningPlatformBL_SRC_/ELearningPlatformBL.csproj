@@ -42,5 +42,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_ELearningPlatformDL_SRC_\ELearningPlatformDL.csproj">
+      <Project>{54fb5c8a-7e10-432a-817e-a5c32ab19bd3}</Project>
+      <Name>ELearningPlatformDL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_ELearningPlatformTL_SRC_\ELearningPlatformTL.csproj">
+      <Project>{3652ef90-d6ec-4699-bb43-4a45e63bc3e1}</Project>
+      <Name>ELearningPlatformTL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -114,6 +114,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_ELearningPlatformBL_SRC_\ELearningPlatformBL.csproj">
+      <Project>{4feb2b1d-fb6d-4dd1-a1de-9aae3afa46dc}</Project>
+      <Name>ELearningPlatformBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\_ELearningPlatformTL_SRC_\ELearningPlatformTL.csproj">
+      <Project>{3652ef90-d6ec-4699-bb43-4a45e63bc3e1}</Project>
+      <Name>ELearningPlatformTL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
